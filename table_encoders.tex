@@ -1,0 +1,12 @@
+\begin{tabular}{l r r r r r r r r r}
+\toprule
+& & & \multicolumn{2}{c}{val loss $\downarrow$} & & \multicolumn{2}{c}{class, $\zphys$ $\uparrow$} & & \\
+\cmidrule(lr){4-5}\cmidrule(lr){7-8}
+Encoder & Par. & s/ep & ZTF & Gaia & RMSE $\downarrow$ & ZTF & Gaia & $\zinst$ $\uparrow$ & align $\uparrow$ \\
+\midrule
+S4D & 398.5k & 16 & 0.1397 & 0.1975 & 0.348 & 0.471 & 0.541 & 0.211 & 0.71 \\
+Conformer & 392.9k & 22 & 0.1395 & 0.1961 & 0.352 & 0.472 & 0.562 & 0.186 & 0.17 \\
+GRU & 401.3k & 60 & 0.1395 & 0.2015 & 0.325 & 0.489 & 0.562 & 0.175 & 0.48 \\
+Dilated conv & 399.4k & 13 & 0.1408 & 0.1973 & 0.347 & 0.413 & 0.547 & 0.177 & 0.18 \\
+\bottomrule
+\end{tabular}
